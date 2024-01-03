@@ -1,0 +1,20 @@
+server:
+  port: 7000
+#  servlet:
+#    context-path: /catalog-service
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo_resilience4j
+    username: postgres
+    password: krya
+  application:
+    name: catalog-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect

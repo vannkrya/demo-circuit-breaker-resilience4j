@@ -1,0 +1,4 @@
+rootProject.name = 'demo-circuit-breaker-resilience4j'
+
+include("catalog-service")
+include("user-service")
